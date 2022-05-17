@@ -42,3 +42,10 @@
 ### Copy the results into a .JSON file
 - Line 1: `\o test.json`
 - Line 2: `SELECT json_agg(t) FROM  (SELECT * FROM "Track" WHERE "Composer" = 'Queen') t;`
+
+
+
+Install the "psycopg2" Python package
+pip3 install psycopg2
+Create a new file: "sql-psycopg2.py"
+touch sql-psycopg2.py
